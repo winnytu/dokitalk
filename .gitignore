@@ -23,3 +23,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Packaged build artifact for VIVERSE upload
+tokitalk-viverse.zip
