@@ -1,0 +1,580 @@
+[
+  {
+    "id": "1-1",
+    "title": "はじめての約束",
+    "reward": 20,
+    "dialogues": [
+      {
+        "id": "d1",
+        "speaker": "haru",
+        "text": "日曜日は公園で会おう！楽しみだな〜",
+        "translation": "星期天在公園見面吧！好期待呀～",
+        "audioUrl": "/audio/planner/1-1/d1.mp3"
+      },
+      {
+        "id": "d2",
+        "speaker": "haru",
+        "text": "その日はきっとワクワクする気持ちだよ。",
+        "translation": "那天一定會很興奮的心情喔。",
+        "audioUrl": "/audio/planner/1-1/d2.mp3"
+      },
+      {
+        "id": "d3",
+        "speaker": "haru",
+        "text": "水曜日は図書館で勉強しよう。ちょっと緊張するけど…",
+        "translation": "星期三去圖書館讀書吧。雖然有點緊張…",
+        "audioUrl": "/audio/planner/1-1/d3.mp3"
+      }
+    ],
+    "stickers": [
+      { "id": "s1", "label": "在公園見面", "type": "action" },
+      { "id": "s2", "label": "興奮", "type": "mood" },
+      { "id": "s3", "label": "圖書館讀書", "type": "action" },
+      { "id": "s4", "label": "緊張", "type": "mood" },
+      { "id": "s5", "label": "去散步", "type": "action" },
+      { "id": "s6", "label": "悠閒", "type": "mood" }
+    ],
+    "expectedAnswers": {
+      "mon": [],
+      "tue": [],
+      "wed": ["s3", "s4"],
+      "thu": [],
+      "fri": [],
+      "sat": [],
+      "sun": ["s1", "s2"]
+    }
+  },
+  {
+    "id": "1-2",
+    "title": "單方面留言：出差時的牽掛",
+    "reward": 25,
+    "dialogues": [
+      {
+        "id": "d1",
+        "speaker": "haru",
+        "text": "先輩、お疲れ様です。ハルです。",
+        "translation": "前輩，辛苦了。我是 Haru。",
+        "audioUrl": "/audio/planner/1-2/d1.mp3"
+      },
+      {
+        "id": "d2",
+        "speaker": "haru",
+        "text": "今日は日曜日です。僕は今、京都にいます。京都はとても静かです。",
+        "translation": "今天是星期天。我現在在京都。京都非常安靜。",
+        "audioUrl": "/audio/planner/1-2/d2.mp3"
+      },
+      {
+        "id": "d3",
+        "speaker": "haru",
+        "text": "今日、先輩にお土産を買いました。",
+        "translation": "今天，我買了給前輩的伴手禮。",
+        "audioUrl": "/audio/planner/1-2/d3.mp3"
+      },
+      {
+        "id": "d4",
+        "speaker": "haru",
+        "text": "月曜日の午後、会社のロビーで少し会いませんか。",
+        "translation": "星期一的下午，要不要在公司大廳稍微見個面呢？",
+        "audioUrl": "/audio/planner/1-2/d4.mp3"
+      },
+      {
+        "id": "d5",
+        "speaker": "haru",
+        "text": "一緒に京都の抹茶ケーキを食べましょう！",
+        "translation": "一起吃京都的抹茶蛋糕吧！",
+        "audioUrl": "/audio/planner/1-2/d5.mp3"
+      }
+    ],
+    "stickers": [
+      { "id": "s1", "label": "在京都", "type": "action" },
+      { "id": "s2", "label": "安靜", "type": "mood" },
+      { "id": "s3", "label": "公司大廳見面", "type": "action" },
+      { "id": "s4", "label": "吃蛋糕", "type": "action" },
+      { "id": "s5", "label": "去東京", "type": "action" },
+      { "id": "s6", "label": "很吵", "type": "mood" },
+      { "id": "s7", "label": "買咖啡", "type": "action" },
+      { "id": "s8", "label": "圖書館", "type": "action" }
+    ],
+    "expectedAnswers": {
+      "mon": ["s3", "s4"],
+      "tue": [],
+      "wed": [],
+      "thu": [],
+      "fri": [],
+      "sat": [],
+      "sun": ["s1", "s2"]
+    }
+  },
+  {
+    "id": "1-3",
+    "title": "玩家拒絕：改天見面好嗎",
+    "reward": 30,
+    "dialogues": [
+      {
+        "id": "d1",
+        "speaker": "haru",
+        "text": "先輩、木曜日の夜、一緒に晩ごはんを食べませんか。",
+        "translation": "前輩，星期四晚上要不要一起吃晚餐呢？",
+        "audioUrl": "/audio/planner/1-3/d1.mp3"
+      },
+      {
+        "id": "d2",
+        "speaker": "player",
+        "text": "ごめんなさい。木曜日は日本語の教室がありますから、時間がありません。",
+        "translation": "對不起。因為星期四有日文課，所以沒有時間。",
+        "audioUrl": "/audio/planner/1-3/d2.mp3"
+      },
+      {
+        "id": "d3",
+        "speaker": "haru",
+        "text": "あ、そうですか…。",
+        "translation": "啊，這樣啊…",
+        "audioUrl": "/audio/planner/1-3/d3.mp3"
+      },
+      {
+        "id": "d4",
+        "speaker": "haru",
+        "text": "じゃ、金曜日はどうですか。",
+        "translation": "那，星期五怎麼樣呢？",
+        "audioUrl": "/audio/planner/1-3/d4.mp3"
+      },
+      {
+        "id": "d5",
+        "speaker": "player",
+        "text": "金曜日は暇です。",
+        "translation": "星期五有空喔。",
+        "audioUrl": "/audio/planner/1-3/d5.mp3"
+      },
+      {
+        "id": "d6",
+        "speaker": "haru",
+        "text": "よかった！じゃあ、金曜日の夜６時に、駅の前で会いましょう。",
+        "translation": "太好了！那麼，星期五晚上 6 點，我們在車站前面見吧。",
+        "audioUrl": "/audio/planner/1-3/d6.mp3"
+      }
+    ],
+    "stickers": [
+      { "id": "s1", "label": "日文課", "type": "action" },
+      { "id": "s2", "label": "沒時間", "type": "mood" },
+      { "id": "s3", "label": "車站前見面", "type": "action" },
+      { "id": "s4", "label": "有空", "type": "mood" },
+      { "id": "s5", "label": "看電影", "type": "action" },
+      { "id": "s6", "label": "公司開會", "type": "action" },
+      { "id": "s7", "label": "忙碌", "type": "mood" },
+      { "id": "s8", "label": "開心", "type": "mood" }
+    ],
+    "expectedAnswers": {
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": ["s1", "s2"],
+      "fri": ["s3", "s4"],
+      "sat": [],
+      "sun": []
+    }
+  },
+  {
+    "id": "2-1",
+    "title": "生病時的霸道指令",
+    "reward": 30,
+    "dialogues": [
+      {
+        "id": "d1",
+        "speaker": "player",
+        "text": "ハルくん、ごめんなさい。火曜日から少し熱があります。",
+        "translation": "Haru，抱歉。我從星期二開始有點發燒。",
+        "audioUrl": "/audio/planner/2-1/d1.mp3"
+      },
+      {
+        "id": "d2",
+        "speaker": "player",
+        "text": "でも、水曜日は大切な会議に行きたいです…。",
+        "translation": "但是，星期三我還是想去參加重要的會議…",
+        "audioUrl": "/audio/planner/2-1/d2.mp3"
+      },
+      {
+        "id": "d3",
+        "speaker": "haru",
+        "text": "ダメです！水曜日は絶対に会社へ行かないでください！",
+        "translation": "不行！星期三絕對請不要去公司！",
+        "audioUrl": "/audio/planner/2-1/d3.mp3"
+      },
+      {
+        "id": "d4",
+        "speaker": "haru",
+        "text": "家でゆっくり休んでください。",
+        "translation": "請在家好好休息。",
+        "audioUrl": "/audio/planner/2-1/d4.mp3"
+      },
+      {
+        "id": "d5",
+        "speaker": "player",
+        "text": "…分かりました。じゃあ、家で休みます。",
+        "translation": "…我知道了。那我在家休息。",
+        "audioUrl": "/audio/planner/2-1/d5.mp3"
+      },
+      {
+        "id": "d6",
+        "speaker": "haru",
+        "text": "木曜日の夜、僕がお粥を作りに行きますね。待っていてください。",
+        "translation": "星期四晚上，我會去做粥給妳吃喔。請等我。",
+        "audioUrl": "/audio/planner/2-1/d6.mp3"
+      }
+    ],
+    "stickers": [
+      { "id": "s1", "label": "發燒", "type": "mood" },
+      { "id": "s2", "label": "在家休息", "type": "action" },
+      { "id": "s3", "label": "Haru煮粥", "type": "action" },
+      { "id": "s4", "label": "安心", "type": "mood" },
+      { "id": "s5", "label": "去公司", "type": "action" },
+      { "id": "s6", "label": "開會", "type": "action" },
+      { "id": "s7", "label": "精神好", "type": "mood" },
+      { "id": "s8", "label": "去醫院", "type": "action" }
+    ],
+    "expectedAnswers": {
+      "mon": [],
+      "tue": ["s1"],
+      "wed": ["s2"],
+      "thu": ["s3", "s4"],
+      "fri": [],
+      "sat": [],
+      "sun": []
+    }
+  },
+  {
+    "id": "2-2",
+    "title": "藏不住的佔有慾",
+    "reward": 30,
+    "dialogues": [
+      {
+        "id": "d1",
+        "speaker": "haru",
+        "text": "先輩、今週の土曜日は他の人と出かけますか。",
+        "translation": "前輩，這週的星期六妳會和其他人出門嗎？",
+        "audioUrl": "/audio/planner/2-2/d1.mp3"
+      },
+      {
+        "id": "d2",
+        "speaker": "haru",
+        "text": "僕は、先輩と二人だけで水族館へ行きたいです。",
+        "translation": "我想和前輩兩個人單獨去水族館。",
+        "audioUrl": "/audio/planner/2-2/d2.mp3"
+      },
+      {
+        "id": "d3",
+        "speaker": "haru",
+        "text": "水族館の魚を見てから、海辺を散歩しましょう。",
+        "translation": "看完水族館的魚之後，我們在海邊散步吧。",
+        "audioUrl": "/audio/planner/2-2/d3.mp3"
+      },
+      {
+        "id": "d4",
+        "speaker": "haru",
+        "text": "日曜日は、一日中僕と一緒にいてください。",
+        "translation": "星期天，請一整天都和我待在一起。",
+        "audioUrl": "/audio/planner/2-2/d4.mp3"
+      },
+      {
+        "id": "d5",
+        "speaker": "haru",
+        "text": "早く先輩に会いたいです…。",
+        "translation": "好想早點見到前輩啊…",
+        "audioUrl": "/audio/planner/2-2/d5.mp3"
+      }
+    ],
+    "stickers": [
+      { "id": "s1", "label": "水族館與散步", "type": "action" },
+      { "id": "s2", "label": "想見面", "type": "mood" },
+      { "id": "s3", "label": "和Haru在一起", "type": "action" },
+      { "id": "s4", "label": "看電影", "type": "action" },
+      { "id": "s5", "label": "加班", "type": "action" },
+      { "id": "s6", "label": "寂寞", "type": "mood" },
+      { "id": "s7", "label": "買東西", "type": "action" }
+    ],
+    "expectedAnswers": {
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [],
+      "fri": [],
+      "sat": ["s1", "s2"],
+      "sun": ["s3"]
+    }
+  },
+  {
+    "id": "2-3",
+    "title": "深夜的迎接與協商",
+    "reward": 35,
+    "dialogues": [
+      {
+        "id": "d1",
+        "speaker": "haru",
+        "text": "先輩、金曜日は部署の飲み会ですね。",
+        "translation": "前輩，星期五是部門的聚餐對吧。",
+        "audioUrl": "/audio/planner/2-3/d1.mp3"
+      },
+      {
+        "id": "d2",
+        "speaker": "haru",
+        "text": "夜遅いですから、僕が駅まで迎えに行ってもいいですか。",
+        "translation": "因為晚上很晚了，我可以去車站接妳嗎？",
+        "audioUrl": "/audio/planner/2-3/d2.mp3"
+      },
+      {
+        "id": "d3",
+        "speaker": "player",
+        "text": "ありがとう。でも、金曜日は遅くまで飲みますから、ハルくんは先に休んでください。",
+        "translation": "謝謝你。但是，星期五會喝到很晚，Haru 先休息吧。",
+        "audioUrl": "/audio/planner/2-3/d3.mp3"
+      },
+      {
+        "id": "d4",
+        "speaker": "haru",
+        "text": "そうですか…少し寂しいです。",
+        "translation": "這樣啊…覺得有點寂寞呢。",
+        "audioUrl": "/audio/planner/2-3/d4.mp3"
+      },
+      {
+        "id": "d5",
+        "speaker": "haru",
+        "text": "じゃあ、土曜日の朝、一緒に朝ごはんを食べてもいいですか。",
+        "translation": "那，星期六早上，我可以跟妳一起吃早餐嗎？",
+        "audioUrl": "/audio/planner/2-3/d5.mp3"
+      },
+      {
+        "id": "d6",
+        "speaker": "player",
+        "text": "もちろんいいですよ！",
+        "translation": "當然可以喔！",
+        "audioUrl": "/audio/planner/2-3/d6.mp3"
+      },
+      {
+        "id": "d7",
+        "speaker": "haru",
+        "text": "やった！じゃあ、美味しいパンを買っていきますね。",
+        "translation": "太棒了！那我去買好吃的麵包過去喔。",
+        "audioUrl": "/audio/planner/2-3/d7.mp3"
+      }
+    ],
+    "stickers": [
+      { "id": "s1", "label": "公司聚餐", "type": "action" },
+      { "id": "s2", "label": "寂寞", "type": "mood" },
+      { "id": "s3", "label": "一起吃早餐", "type": "action" },
+      { "id": "s4", "label": "開心", "type": "mood" },
+      { "id": "s5", "label": "去車站接送", "type": "action" },
+      { "id": "s6", "label": "在家睡覺", "type": "action" },
+      { "id": "s7", "label": "疲累", "type": "mood" },
+      { "id": "s8", "label": "看電影", "type": "action" }
+    ],
+    "expectedAnswers": {
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [],
+      "fri": ["s1", "s2"],
+      "sat": ["s3", "s4"],
+      "sun": []
+    }
+  },
+  {
+    "id": "2-4",
+    "title": "雨天的強勢迎接",
+    "reward": 35,
+    "dialogues": [
+      {
+        "id": "d1",
+        "speaker": "haru",
+        "text": "先輩、火曜日の夕方は雨が降りますよ。傘を持っていますか。",
+        "translation": "前輩，星期二傍晚會下雨喔。妳有帶傘嗎？",
+        "audioUrl": "/audio/planner/2-4/d1.mp3"
+      },
+      {
+        "id": "d2",
+        "speaker": "player",
+        "text": "あ、忘れました！でも大丈夫です、走って帰りますから。",
+        "translation": "啊，我忘了！不過沒關係，我會跑回家。",
+        "audioUrl": "/audio/planner/2-4/d2.mp3"
+      },
+      {
+        "id": "d3",
+        "speaker": "haru",
+        "text": "ダメです！風邪をひきますから、走らないでください。",
+        "translation": "不行！會感冒的，請不要用跑的。",
+        "audioUrl": "/audio/planner/2-4/d3.mp3"
+      },
+      {
+        "id": "d4",
+        "speaker": "haru",
+        "text": "僕が駅まで傘を持っていきましょうか。",
+        "translation": "我帶傘去車站接妳好嗎？",
+        "audioUrl": "/audio/planner/2-4/d4.mp3"
+      },
+      {
+        "id": "d5",
+        "speaker": "player",
+        "text": "えっと…じゃあ、すみません。お願いします。",
+        "translation": "呃…那不好意思，就麻煩你了。",
+        "audioUrl": "/audio/planner/2-4/d5.mp3"
+      },
+      {
+        "id": "d6",
+        "speaker": "haru",
+        "text": "はい！仕事が終わってから、駅の前で待っていますね。",
+        "translation": "好！工作結束後，我會在車站前面等妳喔。",
+        "audioUrl": "/audio/planner/2-4/d6.mp3"
+      }
+    ],
+    "stickers": [
+      { "id": "s1", "label": "帶傘接送", "type": "action" },
+      { "id": "s2", "label": "車站前等待", "type": "action" },
+      { "id": "s3", "label": "擔心", "type": "mood" },
+      { "id": "s4", "label": "淋雨跑回家", "type": "action" },
+      { "id": "s5", "label": "生病", "type": "mood" },
+      { "id": "s6", "label": "看電影", "type": "action" }
+    ],
+    "expectedAnswers": {
+      "mon": [],
+      "tue": ["s1", "s2", "s3"],
+      "wed": [],
+      "thu": [],
+      "fri": [],
+      "sat": [],
+      "sun": []
+    }
+  },
+  {
+    "id": "2-5",
+    "title": "幫忙打掃與藉機獨處",
+    "reward": 35,
+    "dialogues": [
+      {
+        "id": "d1",
+        "speaker": "player",
+        "text": "土曜日は、一日中部屋の掃除をします。とても大変です…。",
+        "translation": "星期六，我要一整天打掃房間。非常辛苦…",
+        "audioUrl": "/audio/planner/2-5/d1.mp3"
+      },
+      {
+        "id": "d2",
+        "speaker": "haru",
+        "text": "えっ？一人で？僕が手伝いに行きましょうか。",
+        "translation": "咦？妳一個人嗎？我去幫妳吧？",
+        "audioUrl": "/audio/planner/2-5/d2.mp3"
+      },
+      {
+        "id": "d3",
+        "speaker": "player",
+        "text": "だめです！部屋が汚いですから、来ないでください！",
+        "translation": "不行！因為房間很髒，請不要過來！",
+        "audioUrl": "/audio/planner/2-5/d3.mp3"
+      },
+      {
+        "id": "d4",
+        "speaker": "haru",
+        "text": "大丈夫ですよ。僕は全然気にしません。",
+        "translation": "沒關係的喔。我完全不在意。",
+        "audioUrl": "/audio/planner/2-5/d4.mp3"
+      },
+      {
+        "id": "d5",
+        "speaker": "haru",
+        "text": "掃除が終わってから、一緒にピザを食べたいです。",
+        "translation": "打掃結束之後，我想和妳一起吃披薩。",
+        "audioUrl": "/audio/planner/2-5/d5.mp3"
+      },
+      {
+        "id": "d6",
+        "speaker": "haru",
+        "text": "お願いします、土曜日、先輩の家へ行ってもいいですか。",
+        "translation": "拜託妳了，星期六，我可以去前輩家嗎？",
+        "audioUrl": "/audio/planner/2-5/d6.mp3"
+      },
+      {
+        "id": "d7",
+        "speaker": "player",
+        "text": "…仕方ないですね。じゃあ、お願いします。",
+        "translation": "…真拿你沒辦法。那麻煩你了。",
+        "audioUrl": "/audio/planner/2-5/d7.mp3"
+      }
+    ],
+    "stickers": [
+      { "id": "s1", "label": "打掃房間", "type": "action" },
+      { "id": "s2", "label": "吃披薩", "type": "action" },
+      { "id": "s3", "label": "害羞", "type": "mood" },
+      { "id": "s4", "label": "一個人打掃", "type": "action" },
+      { "id": "s5", "label": "去餐廳", "type": "action" },
+      { "id": "s6", "label": "疲累", "type": "mood" },
+      { "id": "s7", "label": "生氣", "type": "mood" }
+    ],
+    "expectedAnswers": {
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [],
+      "fri": [],
+      "sat": ["s1", "s2", "s3"],
+      "sun": []
+    }
+  },
+  {
+    "id": "2-6",
+    "title": "無法見面時的撒嬌",
+    "reward": 35,
+    "dialogues": [
+      {
+        "id": "d1",
+        "speaker": "haru",
+        "text": "先輩、今、木曜日の夜です。僕は実家に帰りました。",
+        "translation": "前輩，現在是星期四晚上。我回老家了。",
+        "audioUrl": "/audio/planner/2-6/d1.mp3"
+      },
+      {
+        "id": "d2",
+        "speaker": "haru",
+        "text": "金曜日は、家族と食事をしなければなりません。",
+        "translation": "星期五，我必須和家人一起吃飯。",
+        "audioUrl": "/audio/planner/2-6/d2.mp3"
+      },
+      {
+        "id": "d3",
+        "speaker": "haru",
+        "text": "でも、早く東京へ帰りたいです。先輩の顔が見たいですから…。",
+        "translation": "但是，我好想早點回東京。因為好想看到前輩的臉…",
+        "audioUrl": "/audio/planner/2-6/d3.mp3"
+      },
+      {
+        "id": "d4",
+        "speaker": "haru",
+        "text": "日曜日の午後、僕に少しだけ時間をください。",
+        "translation": "星期天的下午，請給我一點點時間。",
+        "audioUrl": "/audio/planner/2-6/d4.mp3"
+      },
+      {
+        "id": "d5",
+        "speaker": "haru",
+        "text": "先輩の声を聞いてから、寝ます。おやすみなさい。",
+        "translation": "聽完前輩的聲音之後，我就要睡了。晚安。",
+        "audioUrl": "/audio/planner/2-6/d5.mp3"
+      }
+    ],
+    "stickers": [
+      { "id": "s1", "label": "回老家", "type": "action" },
+      { "id": "s2", "label": "和家人吃飯", "type": "action" },
+      { "id": "s3", "label": "想見前輩", "type": "mood" },
+      { "id": "s4", "label": "見面", "type": "action" },
+      { "id": "s5", "label": "不想回家", "type": "mood" },
+      { "id": "s6", "label": "和前輩吃飯", "type": "action" },
+      { "id": "s7", "label": "生病", "type": "mood" },
+      { "id": "s8", "label": "開心", "type": "mood" }
+    ],
+    "expectedAnswers": {
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": ["s1"],
+      "fri": ["s2", "s3"],
+      "sat": [],
+      "sun": ["s4"]
+    }
+  }
+]

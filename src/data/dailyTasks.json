@@ -1,0 +1,31 @@
+[
+  {
+    "id": "daily-login",
+    "type": "login",
+    "title": "每日登入",
+    "description": "打開 App 跟陽說聲早安吧",
+    "goal": 1,
+    "rewardCoins": 10,
+    "rewardActivity": 20
+  },
+  {
+    "id": "clear-navigation-stage",
+    "type": "clearStage",
+    "title": "完成地圖關卡",
+    "description": "在城市邂逅中完成任一趟散步任務",
+    "goal": 1,
+    "rewardCoins": 15,
+    "rewardActivity": 30,
+    "target": "navigation"
+  },
+  {
+    "id": "review-vocabulary",
+    "type": "reviewVocabulary",
+    "title": "回憶錄複習單字",
+    "description": "到回憶錄的學習軌跡複習 3 個單字",
+    "goal": 3,
+    "rewardCoins": 15,
+    "rewardActivity": 50,
+    "target": "memories"
+  }
+]

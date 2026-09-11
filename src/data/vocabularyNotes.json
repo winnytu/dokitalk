@@ -1,0 +1,392 @@
+[
+  {
+    "module": "planner",
+    "stageId": "1-1",
+    "vocabulary": [
+      {
+        "id": "v1",
+        "word": "約束",
+        "reading": "やくそく",
+        "meaning": "約定",
+        "audioUrl": "/audio/vocab/yakusoku.mp3"
+      },
+      {
+        "id": "v2",
+        "word": "図書館",
+        "reading": "としょかん",
+        "meaning": "圖書館",
+        "audioUrl": "/audio/vocab/toshokan.mp3"
+      },
+      {
+        "id": "v3",
+        "word": "緊張",
+        "reading": "きんちょう",
+        "meaning": "緊張",
+        "audioUrl": "/audio/vocab/kinchou.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "g1",
+        "pattern": "〜ましょう",
+        "explanation": "邀請對方一起做某件事，語氣溫和。",
+        "example": "公園で会いましょう。（在公園見面吧。）"
+      }
+    ]
+  },
+  {
+    "module": "navigation",
+    "stageId": "1-1",
+    "vocabulary": [
+      {
+        "id": "v4",
+        "word": "郵便局",
+        "reading": "ゆうびんきょく",
+        "meaning": "郵局",
+        "audioUrl": "/audio/vocab/yuubinkyoku.mp3"
+      },
+      {
+        "id": "v5",
+        "word": "切手",
+        "reading": "きって",
+        "meaning": "郵票",
+        "audioUrl": "/audio/vocab/kitte.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "g2",
+        "pattern": "〜てください",
+        "explanation": "禮貌地請求對方做某事。",
+        "example": "切手を２枚買ってください。（請買兩張郵票。）"
+      }
+    ]
+  },
+  {
+    "module": "call",
+    "stageId": "1-1",
+    "vocabulary": [
+      {
+        "id": "v6",
+        "word": "週末",
+        "reading": "しゅうまつ",
+        "meaning": "週末",
+        "audioUrl": "/audio/vocab/shuumatsu.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "g3",
+        "pattern": "〜かな",
+        "explanation": "自言自語地猜測、確認語氣。",
+        "example": "楽しいかな。（會很開心吧。）"
+      }
+    ]
+  },
+  {
+    "module": "planner",
+    "stageId": "1-2",
+    "vocabulary": [
+      { "id": "v7", "word": "お土産", "reading": "おみやげ", "meaning": "伴手禮", "audioUrl": "/audio/vocab/omiyage.mp3" },
+      { "id": "v8", "word": "静か", "reading": "しずか", "meaning": "安靜", "audioUrl": "/audio/vocab/shizuka.mp3" },
+      { "id": "v9", "word": "ロビー", "reading": "ロビー", "meaning": "大廳", "audioUrl": "/audio/vocab/robii.mp3" }
+    ],
+    "grammar": [
+      {
+        "id": "g4",
+        "pattern": "〜ませんか",
+        "explanation": "邀請對方一起做某件事。",
+        "example": "会社のロビーで少し会いませんか。（要不要在公司大廳稍微見個面呢？）"
+      }
+    ]
+  },
+  {
+    "module": "planner",
+    "stageId": "1-3",
+    "vocabulary": [
+      { "id": "v10", "word": "教室", "reading": "きょうしつ", "meaning": "教室", "audioUrl": "/audio/vocab/kyoushitsu.mp3" },
+      { "id": "v11", "word": "暇", "reading": "ひま", "meaning": "有空、空閒", "audioUrl": "/audio/vocab/hima.mp3" },
+      { "id": "v12", "word": "前", "reading": "まえ", "meaning": "前面", "audioUrl": "/audio/vocab/mae.mp3" }
+    ],
+    "grammar": [
+      {
+        "id": "g5",
+        "pattern": "〜から",
+        "explanation": "說明理由、原因。",
+        "example": "日本語の教室がありますから、時間がありません。（因為有日文課，所以沒有時間。）"
+      }
+    ]
+  },
+  {
+    "module": "planner",
+    "stageId": "2-1",
+    "vocabulary": [
+      { "id": "v13", "word": "熱", "reading": "ねつ", "meaning": "發燒", "audioUrl": "/audio/vocab/netsu.mp3" },
+      { "id": "v14", "word": "お粥", "reading": "おかゆ", "meaning": "粥", "audioUrl": "/audio/vocab/okayu.mp3" },
+      { "id": "v15", "word": "会議", "reading": "かいぎ", "meaning": "會議", "audioUrl": "/audio/vocab/kaigi.mp3" }
+    ],
+    "grammar": [
+      {
+        "id": "g6",
+        "pattern": "〜ないでください",
+        "explanation": "禮貌地請對方不要做某事。",
+        "example": "水曜日は絶対に会社へ行かないでください。（星期三絕對請不要去公司。）"
+      }
+    ]
+  },
+  {
+    "module": "planner",
+    "stageId": "2-2",
+    "vocabulary": [
+      { "id": "v16", "word": "水族館", "reading": "すいぞくかん", "meaning": "水族館", "audioUrl": "/audio/vocab/suizokukan.mp3" },
+      { "id": "v17", "word": "海辺", "reading": "うみべ", "meaning": "海邊", "audioUrl": "/audio/vocab/umibe.mp3" },
+      { "id": "v18", "word": "一日中", "reading": "いちにちじゅう", "meaning": "一整天", "audioUrl": "/audio/vocab/ichinichijuu.mp3" }
+    ],
+    "grammar": [
+      {
+        "id": "g7",
+        "pattern": "〜てください",
+        "explanation": "禮貌地請求對方做某事。",
+        "example": "一日中僕と一緒にいてください。（請一整天都和我待在一起。）"
+      }
+    ]
+  },
+  {
+    "module": "planner",
+    "stageId": "2-3",
+    "vocabulary": [
+      { "id": "v19", "word": "飲み会", "reading": "のみかい", "meaning": "聚餐、酒會", "audioUrl": "/audio/vocab/nomikai.mp3" },
+      { "id": "v20", "word": "迎え", "reading": "むかえ", "meaning": "迎接", "audioUrl": "/audio/vocab/mukae.mp3" },
+      { "id": "v21", "word": "寂しい", "reading": "さびしい", "meaning": "寂寞", "audioUrl": "/audio/vocab/sabishii.mp3" }
+    ],
+    "grammar": [
+      {
+        "id": "g8",
+        "pattern": "〜てもいいですか",
+        "explanation": "禮貌地詢問是否可以做某事。",
+        "example": "駅まで迎えに行ってもいいですか。（我可以去車站接妳嗎？）"
+      }
+    ]
+  },
+  {
+    "module": "planner",
+    "stageId": "2-4",
+    "vocabulary": [
+      { "id": "v22", "word": "傘", "reading": "かさ", "meaning": "傘", "audioUrl": "/audio/vocab/kasa.mp3" },
+      { "id": "v23", "word": "風邪", "reading": "かぜ", "meaning": "感冒", "audioUrl": "/audio/vocab/kaze.mp3" },
+      { "id": "v24", "word": "お願いします", "reading": "おねがいします", "meaning": "拜託、麻煩你", "audioUrl": "/audio/vocab/onegaishimasu.mp3" }
+    ],
+    "grammar": [
+      {
+        "id": "g9",
+        "pattern": "〜ましょうか",
+        "explanation": "主動提議幫對方做某事。",
+        "example": "僕が駅まで傘を持っていきましょうか。（我帶傘去車站接妳好嗎？）"
+      }
+    ]
+  },
+  {
+    "module": "planner",
+    "stageId": "2-5",
+    "vocabulary": [
+      { "id": "v25", "word": "掃除", "reading": "そうじ", "meaning": "打掃", "audioUrl": "/audio/vocab/souji.mp3" },
+      { "id": "v26", "word": "汚い", "reading": "きたない", "meaning": "骯髒的", "audioUrl": "/audio/vocab/kitanai.mp3" },
+      { "id": "v27", "word": "気にしない", "reading": "きにしない", "meaning": "不在意", "audioUrl": "/audio/vocab/kinishinai.mp3" }
+    ],
+    "grammar": [
+      {
+        "id": "g10",
+        "pattern": "〜てから",
+        "explanation": "表示做完某動作之後。",
+        "example": "掃除が終わってから、一緒にピザを食べたいです。（打掃結束之後，我想和妳一起吃披薩。）"
+      }
+    ]
+  },
+  {
+    "module": "planner",
+    "stageId": "2-6",
+    "vocabulary": [
+      { "id": "v28", "word": "実家", "reading": "じっか", "meaning": "老家", "audioUrl": "/audio/vocab/jikka.mp3" },
+      { "id": "v29", "word": "家族", "reading": "かぞく", "meaning": "家人", "audioUrl": "/audio/vocab/kazoku.mp3" },
+      { "id": "v30", "word": "少しだけ", "reading": "すこしだけ", "meaning": "一點點", "audioUrl": "/audio/vocab/sukoshidake.mp3" }
+    ],
+    "grammar": [
+      {
+        "id": "g11",
+        "pattern": "〜なければなりません",
+        "explanation": "表示必須做某事的義務。",
+        "example": "家族と食事をしなければなりません。（我必須和家人一起吃飯。）"
+      }
+    ]
+  },
+  {
+    "module": "navigation",
+    "stageId": "1-2",
+    "vocabulary": [
+      { "id": "v31", "word": "本屋", "reading": "ほんや", "meaning": "書店", "audioUrl": "/audio/vocab/honya.mp3" },
+      { "id": "v32", "word": "隣", "reading": "となり", "meaning": "旁邊", "audioUrl": "/audio/vocab/tonari.mp3" },
+      { "id": "v33", "word": "美術館", "reading": "びじゅつかん", "meaning": "美術館", "audioUrl": "/audio/vocab/bijutsukan.mp3" }
+    ],
+    "grammar": [
+      {
+        "id": "g12",
+        "pattern": "〜の隣にいます",
+        "explanation": "描述人或物在某物旁邊的位置。",
+        "example": "カメラの本の隣にいます。（我在相機書籍的旁邊。）"
+      }
+    ]
+  },
+  {
+    "module": "navigation",
+    "stageId": "1-3",
+    "vocabulary": [
+      { "id": "v34", "word": "コンビニ", "reading": "コンビニ", "meaning": "便利商店", "audioUrl": "/audio/vocab/konbini.mp3" },
+      { "id": "v35", "word": "濡れる", "reading": "ぬれる", "meaning": "淋濕", "audioUrl": "/audio/vocab/nureru.mp3" },
+      { "id": "v36", "word": "電車", "reading": "でんしゃ", "meaning": "電車", "audioUrl": "/audio/vocab/densha.mp3" }
+    ],
+    "grammar": [
+      {
+        "id": "g13",
+        "pattern": "〜ますか、〜ますか",
+        "explanation": "並列兩個選項，詢問對方要選哪一個。",
+        "example": "電車で帰りますか、タクシーで帰りますか。（要搭電車回家，還是搭計程車回家呢？）"
+      }
+    ]
+  },
+  {
+    "module": "navigation",
+    "stageId": "1-4",
+    "vocabulary": [
+      { "id": "v37", "word": "居酒屋", "reading": "いざかや", "meaning": "居酒屋", "audioUrl": "/audio/vocab/izakaya.mp3" },
+      { "id": "v38", "word": "鞄", "reading": "かばん", "meaning": "包包", "audioUrl": "/audio/vocab/kaban.mp3" },
+      { "id": "v39", "word": "忘れ物", "reading": "わすれもの", "meaning": "遺失物、忘記帶走的東西", "audioUrl": "/audio/vocab/wasuremono.mp3" }
+    ],
+    "grammar": [
+      {
+        "id": "g14",
+        "pattern": "〜の下にあります",
+        "explanation": "描述物品在某物下方的位置。",
+        "example": "僕の鞄は、テーブルの下にあります。（我的包包在桌子底下。）"
+      }
+    ]
+  },
+  {
+    "module": "navigation",
+    "stageId": "1-5",
+    "vocabulary": [
+      { "id": "v40", "word": "デパート", "reading": "デパート", "meaning": "百貨公司", "audioUrl": "/audio/vocab/depaato.mp3" },
+      { "id": "v41", "word": "階", "reading": "かい", "meaning": "樓層", "audioUrl": "/audio/vocab/kai.mp3" },
+      { "id": "v42", "word": "派手", "reading": "はで", "meaning": "花俏的", "audioUrl": "/audio/vocab/hade.mp3" }
+    ],
+    "grammar": [
+      {
+        "id": "g15",
+        "pattern": "〜たいです",
+        "explanation": "表達自己想做某事的願望。",
+        "example": "新しいシャツを買いたいです。（我想買新襯衫。）"
+      }
+    ]
+  },
+  {
+    "module": "navigation",
+    "stageId": "1-6",
+    "vocabulary": [
+      { "id": "v43", "word": "薬局", "reading": "やっきょく", "meaning": "藥局、藥妝店", "audioUrl": "/audio/vocab/yakkyoku.mp3" },
+      { "id": "v44", "word": "誕生日", "reading": "たんじょうび", "meaning": "生日", "audioUrl": "/audio/vocab/tanjoubi.mp3" },
+      { "id": "v45", "word": "おいしい", "reading": "おいしい", "meaning": "美味的", "audioUrl": "/audio/vocab/oishii.mp3" }
+    ],
+    "grammar": [
+      {
+        "id": "g16",
+        "pattern": "〜ましょう",
+        "explanation": "邀請對方一起做某件事，語氣溫和。",
+        "example": "レストランでご飯を食べましょう。（在餐廳吃飯吧。）"
+      }
+    ]
+  },
+  {
+    "module": "call",
+    "stageId": "1-2",
+    "vocabulary": [
+      { "id": "v46", "word": "疲れる", "reading": "つかれる", "meaning": "疲累", "audioUrl": "/audio/vocab/tsukareru.mp3" },
+      { "id": "v47", "word": "元気", "reading": "げんき", "meaning": "有精神", "audioUrl": "/audio/vocab/genki.mp3" },
+      { "id": "v48", "word": "会社", "reading": "かいしゃ", "meaning": "公司", "audioUrl": "/audio/vocab/kaisha.mp3" }
+    ],
+    "grammar": [
+      {
+        "id": "g17",
+        "pattern": "〜から",
+        "explanation": "說明理由、原因。",
+        "example": "仕事がたくさんありましたから、とても疲れました。（因為工作非常多，覺得非常累。）"
+      }
+    ]
+  },
+  {
+    "module": "call",
+    "stageId": "1-3",
+    "vocabulary": [
+      { "id": "v49", "word": "出張", "reading": "しゅっちょう", "meaning": "出差", "audioUrl": "/audio/vocab/shucchou.mp3" },
+      { "id": "v50", "word": "抹茶", "reading": "まっちゃ", "meaning": "抹茶", "audioUrl": "/audio/vocab/maccha.mp3" },
+      { "id": "v51", "word": "一人", "reading": "ひとり", "meaning": "一個人", "audioUrl": "/audio/vocab/hitori.mp3" }
+    ],
+    "grammar": [
+      {
+        "id": "g18",
+        "pattern": "〜ませんか",
+        "explanation": "邀請對方一起做某件事。",
+        "example": "会社で一緒に食べませんか。（要不要在公司一起吃呢？）"
+      }
+    ]
+  },
+  {
+    "module": "call",
+    "stageId": "2-1",
+    "vocabulary": [
+      { "id": "v52", "word": "電話", "reading": "でんわ", "meaning": "電話", "audioUrl": "/audio/vocab/denwa.mp3" },
+      { "id": "v53", "word": "声", "reading": "こえ", "meaning": "聲音", "audioUrl": "/audio/vocab/koe.mp3" },
+      { "id": "v54", "word": "夢", "reading": "ゆめ", "meaning": "夢", "audioUrl": "/audio/vocab/yume.mp3" }
+    ],
+    "grammar": [
+      {
+        "id": "g19",
+        "pattern": "〜てもいいですか",
+        "explanation": "禮貌地詢問是否可以做某事。",
+        "example": "少しだけ電話をかけてもいいですか。（現在，可以稍微講一下電話嗎？）"
+      }
+    ]
+  },
+  {
+    "module": "call",
+    "stageId": "2-2",
+    "vocabulary": [
+      { "id": "v55", "word": "心配", "reading": "しんぱい", "meaning": "擔心", "audioUrl": "/audio/vocab/shinpai.mp3" },
+      { "id": "v56", "word": "終わる", "reading": "おわる", "meaning": "結束", "audioUrl": "/audio/vocab/owaru.mp3" },
+      { "id": "v57", "word": "一緒に", "reading": "いっしょに", "meaning": "一起", "audioUrl": "/audio/vocab/isshoni.mp3" }
+    ],
+    "grammar": [
+      {
+        "id": "g20",
+        "pattern": "〜てから",
+        "explanation": "表示做完某動作之後。",
+        "example": "仕事が終わってから、僕だけを見てください。（工作結束之後，請只看著我一個人。）"
+      }
+    ]
+  },
+  {
+    "module": "call",
+    "stageId": "2-3",
+    "vocabulary": [
+      { "id": "v58", "word": "晩ご飯", "reading": "ばんごはん", "meaning": "晚餐", "audioUrl": "/audio/vocab/bangohan.mp3" },
+      { "id": "v59", "word": "約束", "reading": "やくそく", "meaning": "約定", "audioUrl": "/audio/vocab/yakusoku2.mp3" },
+      { "id": "v60", "word": "必ず", "reading": "かならず", "meaning": "一定、必定", "audioUrl": "/audio/vocab/kanarazu.mp3" }
+    ],
+    "grammar": [
+      {
+        "id": "g21",
+        "pattern": "〜なければなりません",
+        "explanation": "表示必須做某事的義務。",
+        "example": "明日は必ず僕と一緒にご飯を食べなければなりません。（明天絕對必須和我一起吃飯喔。）"
+      }
+    ]
+  }
+]

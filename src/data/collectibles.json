@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cg-park-meet",
+    "type": "image",
+    "title": "一起吃抹茶蛋糕",
+    "thumbnail": "plan1",
+    "unlockCondition": { "module": "planner", "stageId": "1-2" }
+  },
+  {
+    "id": "cg-post-office",
+    "type": "image",
+    "title": "車站前的重逢",
+    "thumbnail": "nav1",
+    "unlockCondition": { "module": "navigation", "stageId": "1-3" }
+  },
+  {
+    "id": "video-weekend-call",
+    "type": "image",
+    "title": "週末邀約的通話回放",
+    "thumbnail": "call1",
+    "unlockCondition": { "module": "call", "stageId": "1-1" }
+  },
+  {
+    "id": "cg-shirt-pick",
+    "type": "image",
+    "title": "幫忙挑襯衫",
+    "thumbnail": "nav2",
+    "unlockCondition": { "module": "navigation", "stageId": "1-5" }
+  },
+  {
+    "id": "cg-aquarium",
+    "type": "image",
+    "title": "一起去水族館",
+    "thumbnail": "plan2",
+    "unlockCondition": { "module": "planner", "stageId": "2-2" }
+  }
+]
+

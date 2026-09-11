@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html,
+  body {
+    @apply bg-background text-text-main;
+    height: 100dvh;
+    overflow: hidden;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Nunito", "Zen Maru Gothic", sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #root {
+    height: 100dvh;
+    overflow: hidden;
+  }
+
+  /* 日文/漢字內容統一套用 Zen Maru Gothic，讓角色語氣呈現軟萌手寫感 */
+  :lang(ja) {
+    font-family: "Zen Maru Gothic", sans-serif;
+  }
+}
+
+@layer utilities {
+  /* 毛玻璃卡片／導航列共用效果 */
+  .glass-surface {
+    @apply bg-white/60 backdrop-blur-md;
+  }
+
+  /* 隱藏捲軸但保留可捲動性，用於手帳、通話字幕區域 */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

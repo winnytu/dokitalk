@@ -1,0 +1,14 @@
+[
+  {
+    "id": "dailyQuest",
+    "label": "每日任務",
+    "emoji": "📝",
+    "description": "完成任務累積活躍度"
+  },
+  {
+    "id": "memories",
+    "label": "回憶錄",
+    "emoji": "📖",
+    "description": "回顧單字文法與珍藏回憶"
+  }
+]

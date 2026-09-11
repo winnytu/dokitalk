@@ -1,0 +1,392 @@
+[
+  {
+    "id": "1-1",
+    "title": "鼓起勇氣的週末邀約",
+    "callerName": "陽",
+    "reward": 20,
+    "phases": [
+      {
+        "type": "cloze",
+        "lines": [
+          {
+            "id": "p1-1",
+            "speaker": "haru",
+            "before": "先輩、こんばんは。ハルです。今、少し時間が",
+            "after": "？",
+            "answer": "ありますか",
+            "options": ["ありますか", "ありませんか", "ありましたか"],
+            "translation": "前輩晚安，我是 Haru。現在，妳稍微有一點時間嗎？"
+          },
+          {
+            "id": "p1-2",
+            "speaker": "haru",
+            "before": "よかった…。実は、土曜日に新しい美術館へ行きます。先輩は、土曜日、",
+            "after": "？",
+            "answer": "忙しいですか",
+            "options": ["忙しいですか", "暇ですか", "楽しいですか"],
+            "translation": "太好了…。其實，星期六我要去新的美術館。前輩星期六，忙嗎？"
+          }
+        ]
+      },
+      {
+        "type": "speak",
+        "line": {
+          "id": "p2-1",
+          "prompt": "安撫他並表達自己有空",
+          "text": "いいえ、忙しくないです。暇です。",
+          "romaji": "i i e, i so ga shi ku na i de su. hi ma de su."
+        }
+      },
+      {
+        "type": "cloze",
+        "lines": [
+          {
+            "id": "p3-1",
+            "speaker": "haru",
+            "before": "本当ですか！じゃあ、一緒に",
+            "after": "。",
+            "answer": "行きませんか",
+            "options": ["行きませんか", "行きましょう"],
+            "translation": "真的嗎！那麼，要不要一起去呢。"
+          }
+        ]
+      },
+      {
+        "type": "speak",
+        "line": {
+          "id": "p4-1",
+          "prompt": "開心答應邀約",
+          "text": "ええ、行きましょう！",
+          "romaji": "e e, i ki ma shou!"
+        }
+      }
+    ],
+    "successLine": "ありがとうございます！すごく嬉しいです。じゃあ、おやすみなさい！",
+    "successTranslation": "謝謝妳！我超級開心的。那晚安囉！"
+  },
+  {
+    "id": "1-2",
+    "title": "加班後的微弱討拍",
+    "callerName": "陽",
+    "reward": 25,
+    "phases": [
+      {
+        "type": "speak",
+        "line": {
+          "id": "p1-1",
+          "prompt": "接起電話，主動關心",
+          "text": "ハルくん、こんばんは。どうしましたか。",
+          "romaji": "ha ru kun, kon ban wa. dou shi ma shi ta ka."
+        }
+      },
+      {
+        "type": "cloze",
+        "lines": [
+          {
+            "id": "p2-1",
+            "speaker": "haru",
+            "before": "先輩の声… 僕は今、まだ会社に",
+            "after": "。",
+            "answer": "います",
+            "options": ["います", "あります"],
+            "translation": "前輩的聲音… 我現在，還在公司。"
+          },
+          {
+            "id": "p2-2",
+            "speaker": "haru",
+            "before": "今日は仕事がたくさんありました",
+            "after": "、とても疲れました。",
+            "answer": "から",
+            "options": ["から", "まで"],
+            "translation": "因為今天工作非常多，覺得非常累。"
+          }
+        ]
+      },
+      {
+        "type": "speak",
+        "line": {
+          "id": "p3-1",
+          "prompt": "給予安慰",
+          "text": "大変でしたね。明日は日曜日ですね。",
+          "romaji": "ta i hen de shi ta ne. a shi ta wa ni chi you bi de su ne."
+        }
+      },
+      {
+        "type": "cloze",
+        "lines": [
+          {
+            "id": "p4-1",
+            "speaker": "haru",
+            "before": "はい。でも、先輩と話しましたから、今は",
+            "after": "です。",
+            "answer": "元気",
+            "options": ["元気", "静か"],
+            "translation": "是的。但是，因為和前輩講到話了，現在很有精神了。"
+          }
+        ]
+      }
+    ],
+    "successLine": "先輩、ありがとうございます。少し休みます。おやすみなさい。",
+    "successTranslation": "前輩，謝謝妳。我稍微休息一下。晚安。"
+  },
+  {
+    "id": "1-3",
+    "title": "出差帶回的期待",
+    "callerName": "陽",
+    "reward": 30,
+    "phases": [
+      {
+        "type": "cloze",
+        "lines": [
+          {
+            "id": "p1-1",
+            "speaker": "haru",
+            "before": "先輩！夜遅くにすみません。今、京都から東京へ",
+            "after": "。",
+            "answer": "帰りました",
+            "options": ["帰りました", "帰ります", "行きました"],
+            "translation": "前輩！這麼晚打擾了。我現在，從京都回東京了。"
+          }
+        ]
+      },
+      {
+        "type": "speak",
+        "line": {
+          "id": "p2-1",
+          "prompt": "表達關心",
+          "text": "お疲れ様でした。一人ですか？",
+          "romaji": "o tsu ka re sa ma de shi ta. hi to ri de su ka?"
+        }
+      },
+      {
+        "type": "cloze",
+        "lines": [
+          {
+            "id": "p3-1",
+            "speaker": "haru",
+            "before": "はい、一人です。あの… 今日、京都で先輩に抹茶のお土産を",
+            "after": "。",
+            "answer": "買いました",
+            "options": ["買いました", "もらいました"],
+            "translation": "是的，一個人。那個… 今天，我在京都買了給前輩的抹茶伴手禮。"
+          },
+          {
+            "id": "p3-2",
+            "speaker": "haru",
+            "before": "月曜日、会社で一緒に",
+            "after": "？",
+            "answer": "食べませんか",
+            "options": ["食べませんか", "飲みませんか"],
+            "translation": "星期一，要在公司一起吃嗎？"
+          }
+        ]
+      },
+      {
+        "type": "speak",
+        "line": {
+          "id": "p4-1",
+          "prompt": "開心答應",
+          "text": "ありがとうございます！とても嬉しいです。",
+          "romaji": "a ri ga tou go za i ma su! to te mo u re shi i de su."
+        }
+      }
+    ],
+    "successLine": "ふふっ、よかったです。じゃあ、月曜日に！おやすみなさい。",
+    "successTranslation": "呵呵，太好了。那星期一見！晚安。"
+  },
+  {
+    "id": "2-1",
+    "title": "不想掛斷的撒嬌通話",
+    "callerName": "陽",
+    "reward": 30,
+    "phases": [
+      {
+        "type": "cloze",
+        "lines": [
+          {
+            "id": "p1-1",
+            "speaker": "haru",
+            "before": "先輩… 家に着きましたか。あの、今、少しだけ電話を",
+            "after": "？",
+            "answer": "かけてもいいですか",
+            "options": ["かけてもいいですか", "かけないでください", "かけたいですか"],
+            "translation": "前輩… 到家了嗎？那個，現在，可以稍微講一下電話嗎？"
+          }
+        ]
+      },
+      {
+        "type": "speak",
+        "line": {
+          "id": "p2-1",
+          "prompt": "接起電話，有點驚訝但帶著笑意",
+          "text": "はい、いいですよ。どうしましたか。",
+          "romaji": "ha i, i i de su yo. dou shi ma shi ta ka."
+        }
+      },
+      {
+        "type": "cloze",
+        "lines": [
+          {
+            "id": "p3-1",
+            "speaker": "haru",
+            "before": "さっき別れたばかりですが、もう先輩の声が",
+            "after": "。",
+            "answer": "聞きたいです",
+            "options": ["聞きたいです", "聞いてください", "聞きたくないです"],
+            "translation": "雖然剛剛才分開，但我已經好想聽前輩的聲音了。"
+          },
+          {
+            "id": "p3-2",
+            "speaker": "haru",
+            "before": "明日も会いたいです。僕の夢を",
+            "after": "ね。",
+            "answer": "見てください",
+            "options": ["見てください", "見てもいいですか"],
+            "translation": "明天也想見妳。請夢到我喔。"
+          }
+        ]
+      },
+      {
+        "type": "speak",
+        "line": {
+          "id": "p4-1",
+          "prompt": "溫柔安撫，道晚安",
+          "text": "ふふっ、分かりました。おやすみなさい。",
+          "romaji": "fu fu, wa ka ri ma shi ta. o ya su mi na sa i."
+        }
+      }
+    ],
+    "successLine": "はい、おやすみなさい。大好きですよ。",
+    "successTranslation": "好，晚安。最喜歡妳了喔。"
+  },
+  {
+    "id": "2-2",
+    "title": "微吃醋的佔有慾",
+    "callerName": "陽",
+    "reward": 35,
+    "phases": [
+      {
+        "type": "cloze",
+        "lines": [
+          {
+            "id": "p1-1",
+            "speaker": "haru",
+            "before": "先輩… 起きていますか。今日、他の男の人と楽しく",
+            "after": "。",
+            "answer": "話さないでください",
+            "options": ["話さないでください", "話してください", "話しませんか"],
+            "translation": "前輩… 妳醒著嗎？今天，請不要和其他的男人開心地講話。"
+          }
+        ]
+      },
+      {
+        "type": "speak",
+        "line": {
+          "id": "p2-1",
+          "prompt": "聽出他的不安，連忙解釋",
+          "text": "仕事の話ですから、心配しないでください。",
+          "romaji": "shi go to no ha na shi de su ka ra, shi n pa i shi na i de ku da sa i."
+        }
+      },
+      {
+        "type": "cloze",
+        "lines": [
+          {
+            "id": "p3-1",
+            "speaker": "haru",
+            "before": "分かっています…。でも、仕事が",
+            "after": "、僕だけを見てください。",
+            "answer": "終わってから",
+            "options": ["終わってから", "終わりますから"],
+            "translation": "我知道…。但是，工作結束之後，請只看著我一個人。"
+          },
+          {
+            "id": "p3-2",
+            "speaker": "haru",
+            "before": "明日は、僕と一緒に",
+            "after": "？",
+            "answer": "帰りませんか",
+            "options": ["帰りませんか", "帰りましょうか"],
+            "translation": "明天，要不要和我一起回家呢？"
+          }
+        ]
+      },
+      {
+        "type": "speak",
+        "line": {
+          "id": "p4-1",
+          "prompt": "答應他的獨佔慾",
+          "text": "ええ、一緒に帰りましょう。",
+          "romaji": "e e, i ssho ni ka e ri ma shou."
+        }
+      }
+    ],
+    "successLine": "本当ですね？約束ですよ。じゃあ、明日待っています。",
+    "successTranslation": "真的喔？約好了喔。那，我明天等妳。"
+  },
+  {
+    "id": "2-3",
+    "title": "想要照顧妳的強勢",
+    "callerName": "陽",
+    "reward": 35,
+    "phases": [
+      {
+        "type": "speak",
+        "line": {
+          "id": "p1-1",
+          "prompt": "接起電話，聲音聽起來非常疲憊",
+          "text": "もしもし、ハルくん。遅くまでお疲れ様。",
+          "romaji": "mo shi mo shi, ha ru kun. o so ku ma de o tsu ka re sa ma."
+        }
+      },
+      {
+        "type": "cloze",
+        "lines": [
+          {
+            "id": "p2-1",
+            "speaker": "haru",
+            "before": "先輩、声がとても疲れていますよ。今日も晩ご飯を食べていませんね？今から、僕がご飯を作りに行き",
+            "after": "！",
+            "answer": "ましょうか",
+            "options": ["ましょうか", "たいです", "ませんか"],
+            "translation": "前輩，妳的聲音聽起來非常累喔。今天是不是又沒有吃晚餐？現在，我去幫妳做飯吧！"
+          }
+        ]
+      },
+      {
+        "type": "speak",
+        "line": {
+          "id": "p3-1",
+          "prompt": "覺得太晚想拒絕",
+          "text": "だめです。もう遅いですから、来ないでください。",
+          "romaji": "da me de su. mou o so i de su ka ra, ko na i de ku da sa i."
+        }
+      },
+      {
+        "type": "cloze",
+        "lines": [
+          {
+            "id": "p4-1",
+            "speaker": "haru",
+            "before": "…分かりました。今日は行きません。でも、少しでも何か食べてください。そして、明日は必ず僕と一緒にご飯を",
+            "after": "よ。",
+            "answer": "食べなければなりません",
+            "options": ["食べなければなりません", "食べなくてもいいです", "食べてはいけません"],
+            "translation": "…我知道了。今天我不去。但是，請多少吃一點東西。然後，明天絕對必須和我一起吃飯喔。"
+          }
+        ]
+      },
+      {
+        "type": "speak",
+        "line": {
+          "id": "p5-1",
+          "prompt": "乖乖答應",
+          "text": "分かりました。明日は一緒に食べます。",
+          "romaji": "wa ka ri ma shi ta. a shi ta wa i ssho ni ta be ma su."
+        }
+      }
+    ],
+    "successLine": "はい。ちゃんと約束を守ってくださいね。おやすみなさい。",
+    "successTranslation": "好。請好好遵守約定喔。晚安。"
+  }
+]

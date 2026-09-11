@@ -1,0 +1,20 @@
+[
+  {
+    "id": "planner",
+    "label": "羈絆手札",
+    "emoji": "📔",
+    "description": "今週の約束を確認しよう"
+  },
+  {
+    "id": "navigation",
+    "label": "城市邂逅",
+    "emoji": "🚶",
+    "description": "一緒にお散歩しよう"
+  },
+  {
+    "id": "call",
+    "label": "專屬來電",
+    "emoji": "📞",
+    "description": "陽からの電話だよ"
+  }
+]

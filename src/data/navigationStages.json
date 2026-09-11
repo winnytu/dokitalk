@@ -1,0 +1,632 @@
+[
+  {
+    "id": "1-1",
+    "title": "公司的午休時光",
+    "reward": 20,
+    "playerStart": {
+      "x": 5,
+      "y": 9
+    },
+    "tasks": [
+      {
+        "type": "map",
+        "id": "t1",
+        "targetBuildingId": "post",
+        "hint": "先輩、すみません。会社の後ろに郵便局があります。郵便局へ行ってください。",
+        "hintTranslation": "前輩，不好意思。公司的後面有郵局。請去一趟郵局。"
+      },
+      {
+        "type": "indoor",
+        "id": "t2",
+        "sceneEmoji": "📮",
+        "sceneLabel": "郵便局の窓口",
+        "haruLine": "ありがとうございます。そこで切手を２枚買ってください。",
+        "haruTranslation": "謝謝妳。請在那裡買兩張郵票。",
+        "question": "要買什麼？",
+        "options": [
+          {
+            "id": "a",
+            "label": "葉書（明信片）",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "label": "切手（郵票）",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "label": "封筒（信封）",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "type": "map",
+        "id": "t3",
+        "targetBuildingId": "cafe",
+        "hint": "終わりましたか？じゃあ、お昼ご飯を食べましょう。駅の右にカフェがあります。僕は今そこにいます。",
+        "hintTranslation": "辦好了嗎？那我們吃午餐吧。車站的右邊有咖啡廳。我現在在那裡。"
+      },
+      {
+        "type": "indoor",
+        "id": "t4",
+        "sceneEmoji": "🛗",
+        "sceneLabel": "カフェ一階ロビー",
+        "haruLine": "先輩、ここです！席は２階です。一緒に行きましょう。",
+        "haruTranslation": "前輩，這裡！座位在二樓。一起上去吧。",
+        "question": "要去幾樓？",
+        "options": [
+          {
+            "id": "f1",
+            "label": "１階",
+            "isCorrect": false
+          },
+          {
+            "id": "f2",
+            "label": "２階",
+            "isCorrect": true
+          },
+          {
+            "id": "f3",
+            "label": "３階",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "type": "indoor",
+        "id": "t5",
+        "sceneEmoji": "☕",
+        "sceneLabel": "カフェ２階の席",
+        "haruLine": "僕はサンドイッチを食べます。先輩は何を食べますか。",
+        "haruTranslation": "我要吃三明治。前輩要吃什麼呢？",
+        "question": "要吃什麼？",
+        "options": [
+          {
+            "id": "a",
+            "label": "紅茶（紅茶）",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "label": "カレーライス（咖哩飯）",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "label": "りんご（蘋果）",
+            "isCorrect": false
+          }
+        ]
+      }
+    ],
+    "successLine": "一緒にお昼ご飯、嬉しいです。また明日も一緒に食べましょうね。",
+    "successTranslation": "一起吃午餐，好開心。明天也一起吃吧。"
+  },
+  {
+    "id": "1-2",
+    "title": "週末的站前約會",
+    "reward": 25,
+    "playerStart": {
+      "x": 5,
+      "y": 9
+    },
+    "tasks": [
+      {
+        "type": "map",
+        "id": "t1",
+        "targetBuildingId": "bookstore",
+        "hint": "先輩、おはようございます。駅の下に本屋があります。先に行ってください。",
+        "hintTranslation": "前輩早安。車站的下面有書店。請先過去。"
+      },
+      {
+        "type": "indoor",
+        "id": "t2",
+        "sceneEmoji": "📚",
+        "sceneLabel": "本屋の中",
+        "haruLine": "僕は今、カメラの本の隣にいます。",
+        "haruTranslation": "我現在在相機書籍的旁邊。",
+        "question": "Haru 在哪個區域？",
+        "options": [
+          {
+            "id": "a",
+            "label": "雑誌コーナー（雜誌區）",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "label": "料理本コーナー（料理書區）",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "label": "写真コーナー（攝影區）",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "type": "map",
+        "id": "t3",
+        "targetBuildingId": "museum",
+        "hint": "本を買いました。じゃあ、美術館へ行きましょう。美術館は本屋の右です。",
+        "hintTranslation": "買好書了。那麼，去美術館吧。美術館在書店的右邊。"
+      },
+      {
+        "type": "indoor",
+        "id": "t4",
+        "sceneEmoji": "🎟️",
+        "sceneLabel": "美術館チケット売り場",
+        "haruLine": "人が多いですね。僕がチケットを買います。大人が２人ですね。",
+        "haruTranslation": "人很多呢。我來買票。大人兩位對吧。",
+        "question": "要買幾張票？",
+        "options": [
+          {
+            "id": "a",
+            "label": "１人",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "label": "２人",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "label": "３人",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "type": "indoor",
+        "id": "t5",
+        "sceneEmoji": "🖼️",
+        "sceneLabel": "展示室入口",
+        "haruLine": "今日は日本の古い写真の展覧会です。あ、ここですね。",
+        "haruTranslation": "今天是日本古老照片的展覽會。啊，是這裡呢。",
+        "question": "今天的展覽主題是？",
+        "options": [
+          {
+            "id": "a",
+            "label": "新しい絵（新的畫）",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "label": "古い写真（古老照片）",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "label": "有名な映画（有名的電影）",
+            "isCorrect": false
+          }
+        ]
+      }
+    ],
+    "successLine": "写真、とてもきれいでしたね。先輩と一緒に見られて嬉しかったです。",
+    "successTranslation": "照片非常漂亮呢。能和前輩一起看，好開心。"
+  },
+  {
+    "id": "1-3",
+    "title": "突然的大雨",
+    "reward": 30,
+    "playerStart": {
+      "x": 5,
+      "y": 9
+    },
+    "tasks": [
+      {
+        "type": "map",
+        "id": "t1",
+        "targetBuildingId": "depart",
+        "hint": "あ、雨です！先輩、急ぎましょう！前にデパートがあります。",
+        "hintTranslation": "啊，下雨了！前輩，快點！前面有百貨公司。"
+      },
+      {
+        "type": "indoor",
+        "id": "t2",
+        "sceneEmoji": "🏬",
+        "sceneLabel": "デパート１階",
+        "haruLine": "濡れましたね。デパートの中で少し休みましょうか。",
+        "haruTranslation": "淋濕了呢。在百貨公司裡面稍微休息一下吧。",
+        "question": "要在哪裡休息？",
+        "options": [
+          {
+            "id": "a",
+            "label": "中（裡面）",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "label": "外（外面）",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "label": "上（上面）",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "type": "map",
+        "id": "t3",
+        "targetBuildingId": "conbini",
+        "hint": "雨がやまないですね。駅の下のコンビニで傘を買いましょう。",
+        "hintTranslation": "雨不停呢。去車站下面的便利商店買傘吧。"
+      },
+      {
+        "type": "indoor",
+        "id": "t4",
+        "sceneEmoji": "☂️",
+        "sceneLabel": "コンビニ・傘売り場",
+        "haruLine": "先輩は青い傘が好きですか、白い傘が好きですか。僕は白い傘がいいです。",
+        "haruTranslation": "前輩喜歡藍色的傘，還是白色的傘呢？我覺得白色的傘不錯。",
+        "question": "Haru 想選哪把傘？",
+        "options": [
+          {
+            "id": "a",
+            "label": "赤い傘（紅色）",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "label": "白い傘（白色）",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "label": "黒い傘（黑色）",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "type": "indoor",
+        "id": "t5",
+        "sceneEmoji": "🚉",
+        "sceneLabel": "駅の前",
+        "haruLine": "傘、ありがとうございます。先輩は今日、電車で帰りますか、タクシーで帰りますか。",
+        "haruTranslation": "傘的事情，謝謝妳。前輩今天搭電車回家，還是搭計程車回家呢？",
+        "question": "回家的交通工具？",
+        "options": [
+          {
+            "id": "a",
+            "label": "電車（電車）",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "label": "歩いて（走路）",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "label": "飛行機（飛機）",
+            "isCorrect": false
+          }
+        ]
+      }
+    ],
+    "successLine": "僕も電車です！じゃあ、一緒に帰りましょう。今日は楽しかったです。",
+    "successTranslation": "我也是搭電車！那一起回家吧。今天很開心。"
+  },
+  {
+    "id": "1-4",
+    "title": "下班後的遺失物",
+    "reward": 35,
+    "playerStart": {
+      "x": 5,
+      "y": 9
+    },
+    "tasks": [
+      {
+        "type": "map",
+        "id": "t1",
+        "targetBuildingId": "izakaya",
+        "hint": "先輩、すみません！さっきの店に忘れ物をしました。会社の右の居酒屋です。戻りましょう。",
+        "hintTranslation": "前輩，對不起！我把東西忘在剛才的店裡了。是公司右邊的居酒屋。我們回去吧。"
+      },
+      {
+        "type": "indoor",
+        "id": "t2",
+        "sceneEmoji": "🏮",
+        "sceneLabel": "居酒屋の中",
+        "haruLine": "あ、ありました！僕の鞄は、テーブルの下にあります。",
+        "haruTranslation": "啊，找到了！我的包包在桌子底下。",
+        "question": "包包在哪裡？",
+        "options": [
+          {
+            "id": "a",
+            "label": "上（上面）",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "label": "中（裡面）",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "label": "下（下面）",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "type": "indoor",
+        "id": "t3",
+        "sceneEmoji": "🎒",
+        "sceneLabel": "居酒屋のテーブル",
+        "haruLine": "よかったです。この黒い鞄です。中に会社の資料がありますから…。",
+        "haruTranslation": "太好了。就是這個黑色的包包。因為裡面有公司的資料...",
+        "question": "包包是什麼顏色？",
+        "options": [
+          {
+            "id": "a",
+            "label": "黒い（黑色）",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "label": "白い（白色）",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "label": "赤い（紅色）",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "type": "map",
+        "id": "t4",
+        "targetBuildingId": "park",
+        "hint": "少し疲れましたね。駅の右に公園があります。少し休みませんか。",
+        "hintTranslation": "有點累了呢。車站的右邊有公園。要不要稍微休息一下呢？"
+      },
+      {
+        "type": "indoor",
+        "id": "t5",
+        "sceneEmoji": "🌳",
+        "sceneLabel": "夜の公園",
+        "haruLine": "夜の公園は人がいませんね。とても静かです。",
+        "haruTranslation": "晚上的公園沒有人呢。非常安靜。",
+        "question": "公園的氛圍如何？",
+        "options": [
+          {
+            "id": "a",
+            "label": "にぎやか（熱鬧）",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "label": "暇（有空）",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "label": "静か（安靜）",
+            "isCorrect": true
+          }
+        ]
+      }
+    ],
+    "successLine": "静かだから、先輩の声がよく聞こえますね。今日はありがとうございました。",
+    "successTranslation": "因為很安靜，可以清楚聽到前輩的聲音呢。今天謝謝妳了。"
+  },
+  {
+    "id": "1-5",
+    "title": "週末的電影之約",
+    "reward": 40,
+    "playerStart": {
+      "x": 5,
+      "y": 9
+    },
+    "tasks": [
+      {
+        "type": "map",
+        "id": "t1",
+        "targetBuildingId": "depart",
+        "hint": "先輩、映画の前に少し買い物をしませんか。駅の右にデパートがあります。",
+        "hintTranslation": "前輩，看電影前要不要稍微買點東西？車站的右邊有百貨公司。"
+      },
+      {
+        "type": "indoor",
+        "id": "t2",
+        "sceneEmoji": "🛗",
+        "sceneLabel": "デパートの案内板前",
+        "haruLine": "新しいシャツを買いたいです。男の服は５階ですね。行きましょう。",
+        "haruTranslation": "我想買新襯衫。男裝在５樓對吧。我們走吧。",
+        "question": "要去幾樓？",
+        "options": [
+          {
+            "id": "a",
+            "label": "３階",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "label": "４階",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "label": "５階",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "type": "indoor",
+        "id": "t3",
+        "sceneEmoji": "👔",
+        "sceneLabel": "紳士服売り場",
+        "haruLine": "先輩、このシャツはどうですか。少し派手ですか。",
+        "haruTranslation": "前輩，這件襯衫怎麼樣？會有點太花俏嗎？",
+        "question": "Haru 覺得這件襯衫怎麼樣？",
+        "options": [
+          {
+            "id": "a",
+            "label": "派手（花俏的）",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "label": "便利（方便的）",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "label": "元気（有精神的）",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "type": "map",
+        "id": "t4",
+        "targetBuildingId": "cinema",
+        "hint": "ありがとうございます！じゃあ、デパートの下の映画館へ行きましょう。",
+        "hintTranslation": "謝謝前輩！那麼，去百貨公司下方的電影院吧。"
+      },
+      {
+        "type": "indoor",
+        "id": "t5",
+        "sceneEmoji": "🎬",
+        "sceneLabel": "映画館ロビー",
+        "haruLine": "先輩はどんな映画が好きですか。僕はコメディが好きです。",
+        "haruTranslation": "前輩喜歡什麼樣的電影呢？我喜歡喜劇片。",
+        "question": "Haru 喜歡哪種電影？",
+        "options": [
+          {
+            "id": "a",
+            "label": "コメディ（喜劇片）",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "label": "ニュース（新聞）",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "label": "カメラ（相機）",
+            "isCorrect": false
+          }
+        ]
+      }
+    ],
+    "successLine": "今日は楽しい映画でしたね。今度はどんな映画を見ましょうか。",
+    "successTranslation": "今天的電影很開心呢。下次要看什麼電影好呢？"
+  },
+  {
+    "id": "1-6",
+    "title": "休假日的家庭餐館",
+    "reward": 45,
+    "playerStart": {
+      "x": 5,
+      "y": 9
+    },
+    "tasks": [
+      {
+        "type": "map",
+        "id": "t1",
+        "targetBuildingId": "bookstore",
+        "hint": "先輩、すみません。今、薬局の右の本屋にいます。ここへ来てください。",
+        "hintTranslation": "前輩，不好意思。我現在在藥妝店右邊的書店。請來這裡。"
+      },
+      {
+        "type": "indoor",
+        "id": "t2",
+        "sceneEmoji": "📚",
+        "sceneLabel": "本屋の中",
+        "haruLine": "来週、妹の誕生日ですから、妹にこの本をあげます。",
+        "haruTranslation": "下週是我妹妹的生日，所以要把這本書送給妹妹。",
+        "question": "Haru 要怎麼處理這本書？",
+        "options": [
+          {
+            "id": "a",
+            "label": "もらいます（收到）",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "label": "あげます（給予/送給）",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "label": "借ります（借入）",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "type": "map",
+        "id": "t3",
+        "targetBuildingId": "restaurant",
+        "hint": "買い物が終わりました。薬局の右のレストランでご飯を食べましょう。",
+        "hintTranslation": "買完了。我們在藥妝店右邊的餐廳吃飯吧。"
+      },
+      {
+        "type": "indoor",
+        "id": "t4",
+        "sceneEmoji": "🥤",
+        "sceneLabel": "レストランの飲み物バー",
+        "haruLine": "ここは飲み物が無料ですよ。先輩、何を飲みますか。",
+        "haruTranslation": "這裡的飲料是免費的喔。前輩，妳要喝什麼呢？",
+        "question": "要喝什麼？",
+        "options": [
+          {
+            "id": "a",
+            "label": "肉（肉）",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "label": "パン（麵包）",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "label": "お茶（茶）",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "type": "indoor",
+        "id": "t5",
+        "sceneEmoji": "🍽️",
+        "sceneLabel": "レストランの食卓",
+        "haruLine": "この店のハンバーグはとてもおいしいですよ。先輩もどうぞ。",
+        "haruTranslation": "這家店的漢堡排非常美味喔。前輩也請用。",
+        "question": "Haru 覺得漢堡排味道如何？",
+        "options": [
+          {
+            "id": "a",
+            "label": "おいしい（美味的）",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "label": "忙しい（忙碌的）",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "label": "暑い（炎熱的）",
+            "isCorrect": false
+          }
+        ]
+      }
+    ],
+    "successLine": "でしょう？また今度も一緒に来ましょうね。",
+    "successTranslation": "對吧？下次也要一起再來吃喔。"
+  }
+]

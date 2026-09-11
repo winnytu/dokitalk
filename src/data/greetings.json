@@ -1,0 +1,35 @@
+[
+  { "id": "g1", "text": "おかえり！会いたかったよ。", "romaji": "Okaeri! Aitakatta yo." },
+  { "id": "g2", "text": "今日も可愛いね。", "romaji": "Kyou mo kawaii ne." },
+  {
+    "id": "g3",
+    "text": "ん？どうしたの、じっと見て。",
+    "romaji": "N? Doushita no, jitto mite."
+  },
+  {
+    "id": "g4",
+    "text": "そんなに見つめられると、照れるよ…。",
+    "romaji": "Sonna ni mitsumerareru to, tereru yo…"
+  },
+  { "id": "g5", "text": "早く隣にいたいな。", "romaji": "Hayaku tonari ni itai na." },
+  {
+    "id": "g6",
+    "text": "今、何してたの？教えて？",
+    "romaji": "Ima, nani shiteta no? Oshiete?"
+  },
+  {
+    "id": "g7",
+    "text": "もう一回、押してみて？",
+    "romaji": "Mou ikkai, oshite mite?"
+  },
+  {
+    "id": "g8",
+    "text": "君のこと考えてたところ。",
+    "romaji": "Kimi no koto kangaeteta tokoro."
+  },
+  {
+    "id": "g9",
+    "text": "ずっとこうしていたいな。",
+    "romaji": "Zutto kou shite itai na."
+  }
+]
